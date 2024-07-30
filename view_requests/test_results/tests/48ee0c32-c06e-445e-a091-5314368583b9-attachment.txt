@@ -1,0 +1,41 @@
+Метод POST
+Url используется-post: https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Успешно! Статус код = 200
+['status', 'place_id', 'scope', 'reference', 'id']
+Все поля присутствуют
+----
+----
+Метод get post
+Url используется-get: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=c9ee07a6c2c439fee95e22bde16dc50c
+Успешно! Статус код = 200
+['location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language']
+Все поля присутствуют
+----
+----
+Метод put
+Url используется-put: https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123
+Успешно! Статус код = 200
+['msg']
+Все поля присутствуют
+Верный текст в msg Address successfully updated
+----
+----
+Метод get put
+Url используется-get: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=c9ee07a6c2c439fee95e22bde16dc50c
+Успешно! Статус код = 200
+['location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language']
+Все поля присутствуют
+----
+----
+Метод delete
+Url используется-delete: https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Успешно! Статус код = 200
+['status']
+Все поля присутствуют
+----
+----
+Метод GET delete
+Url используется-get: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=c9ee07a6c2c439fee95e22bde16dc50c
+Успешно! Статус код = 404
+['msg']
+Все поля присутствуют
